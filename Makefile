@@ -9,7 +9,7 @@ GO=go
 GOBUILD=$(GO) build
 GOCLEAN=$(GO) clean
 GOTEST=$(GO) test
-GOGET=$(GO) get
+GOGET=$(GO) get https://accounts.google.com/signin/v2/challenge/ipp?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&ec=65620&hl=en-GB&passive=true&service=youtube&uilel=3&ifkv=ASKXGp0ApBhXPS09veXy2CD8kqb7jI-jX1bxFbgYuC44ut8fOV7I_dqEii5PUWo3bLU7Jg1a4JzZFA&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=4&TL=AHNYTIQiRBkilmiUO0bSOjTir_sFXAwCAO-Q60U3CsPGL0qnbsfiZ3dOP67Z7tHH&lid=3&navigationDirection=forward
 
 .DEFAULT_GOAL := all
 .PHONY: test
